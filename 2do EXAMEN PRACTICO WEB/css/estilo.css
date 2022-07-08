@@ -1,0 +1,122 @@
+/*
+    *Modificar este archivo para agregar los estilos requeridos
+    *Realizar la importaci'on correspondiente
+    *Crear las clases necesarias para cada elemento
+    *Crear los ID para los elementos creados
+    *Agregar efectos mediante HOVER
+    *
+*/
+.autor{
+    border: 1px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.datos1{ 
+    float: left;
+    width: 30%;
+    margin-top: 30%;
+    text-align: center;
+   }
+.datos{     
+    background-image: url("INFO.jpg"); 
+    -webkit-filter: blur(10px);
+     filter: blur(0px);   
+     background-size: cover;    
+     background-repeat: no-repeat;    
+     height: 400px;   
+     position: relative; 
+     margin: 10%;
+    }
+
+ .descripcion{     
+    text-align: center;    
+    font-family: 'Helvetica, Trebuchet MS, Arial';   
+    color: rgb(247, 247, 247); 
+    position: absolute;         
+    text-transform: (-50%,-50%);
+    top: 10%;     left: 5%; right: 5%;       
+}
+a{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+body{
+    background-image: url("fnd.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .elemento{
+    box-shadow: 0 4px 20px #000000;
+    float: left;
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    background-color: aquamarine;
+    font-weight: bolder;
+    
+}
+.contenido{
+    border: 2px solid rgb(209, 17, 107);
+}
+.foto{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+.foto1{
+    padding: 5px;
+    margin: 1%;
+}
+
+.menu{
+    overflow: hidden;
+    position: fixed;/*EL ARTICULO FIXED PERMITE QUE UN ATRIBUTO SE POSICIONE AJISTANDOSE A LA VENTANA DEL NAVEGADOR*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 2;
+    background-image: url("fnd5.jpg");
+}
+.menu a{
+    font-family: helvetica;
+    font-size: medium;
+    text-decoration: none;
+    padding: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 160px;
+    transition-duration: 0.5s;
+    color: #000000;
+}
+.menu a:hover{
+    background: rgb(245, 172, 229);
+    color: rgb(3, 3, 3);
+    font-weight: 900;
+    border: 6px solid rgb(0, 0, 0);
+    font-size: large;
+}
+button {
+    background-color: #e7d319;
+    border-style: solid;
+    border-width: 3px;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+
+  }
+  input{
+    font-size: 20px;
+  }
+  p{
+    font-size: 20px;
+    font-family: Arial;
+
+  }
